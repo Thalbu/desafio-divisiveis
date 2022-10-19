@@ -4,11 +4,15 @@
   "description": "Desafio tecnico",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "test": "NODE_ENV=test tap 'test/**/*.test.js' --jobs=1 --timeout=200"
   },
   "author": "Tainan Henrique de Albuquerque",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "tap": "^16.3.0"
   }
 }
