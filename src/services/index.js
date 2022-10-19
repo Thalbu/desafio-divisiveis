@@ -10,5 +10,5 @@ module.exports = {
   buzz: app.get("/Buzz", require("./buzz")),
   fizz: app.get("/Fizz", require("./fizz")),
   fizzBuzz: app.get("/FizzBuzz", require("./fizz-buzz")),
-  other: app.get("/FizzBuzz", require("./other")),
+  other: app.get("/Other", require("./other")),
 };

@@ -1,7 +1,5 @@
 "use strict";
 
-module.exports = function removeNumerosArray(arrayNumero, numerosParaRemover) {
-  return arrayNumero.filter(function (numero) {
-    return numerosParaRemover.indexOf(numero) === -1;
-  });
+module.exports = function removeNumerosArray(array, numeros) {
+  return array.filter((numero) => !numeros.includes(numero));
 };
