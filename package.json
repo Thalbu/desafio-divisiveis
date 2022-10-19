@@ -1,0 +1,14 @@
+{
+  "name": "desafio-divisao",
+  "version": "1.0.0",
+  "description": "Desafio tecnico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tainan Henrique de Albuquerque",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
