@@ -1,0 +1,5 @@
+"use strict";
+
+module.exports = function geradorArraySequencia(n) {
+  return Array.from({ length: n }, (_, i) => i + 1);
+};
